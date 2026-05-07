@@ -1,6 +1,6 @@
 package Arrays;
 
-public class Practice_5 {
+public class Array_4 {
     static void main() {
         int[][] arr;
         arr = new int[3][4];
