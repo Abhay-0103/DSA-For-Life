@@ -1,6 +1,6 @@
 package String;
 
-public class Pattern_3 {
+public class Practics_3 {
     static void PrintString(String str) {
         int n = str.length();
         for (int i=0; i<n; i++) {
