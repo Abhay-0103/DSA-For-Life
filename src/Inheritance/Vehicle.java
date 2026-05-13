@@ -6,7 +6,7 @@ public class Vehicle {
     public int noOfTyres;
 
     // Default Constructor
-    Vehicle() {
+    public Vehicle() {
         this.name = "";
         this.model = "";
         this.noOfTyres = -1;
