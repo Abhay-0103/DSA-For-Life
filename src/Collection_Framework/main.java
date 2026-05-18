@@ -3,6 +3,7 @@ package Collection_Framework;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Collections;
 
 public class main {
     static void main() {
@@ -48,7 +49,38 @@ public class main {
         while(iterator.hasNext()) {
             System.out.println("Element " + iterator.next());
         }
-    }
 
+        List<Integer> list3 = new ArrayList<>();
+        list3.add(11);
+        list3.add(12);
+        list3.add(14);
+        System.out.println(list3.get(0));
+        list3.set(0,100);
+
+        // ToArray
+        Object[] arr = list3.toArray();
+        for (Object obj: arr) {
+            System.out.println(obj);
+        }
+
+        // Contains
+        System.out.println(list3.contains(100));
+
+        list.add(60);
+        System.out.println("The List is Persent" + list);
+
+        System.out.println();
+        System.out.println();
+        System.out.println();
+
+        list.add(12);
+        list.add(3);
+        System.out.println(list);
+
+        // Sort an arraylist
+        Collections.sort(list);
+
+
+    }
 }
 
